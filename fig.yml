@@ -4,6 +4,8 @@ web:
    - db
   ports:
    - "3000:3000"
+  volumes:
+   - .:/home/mean
   environment: 
    NODE_ENV: development
 db:

@@ -4,6 +4,8 @@ MEAN.JS, Drone.io and Docker
 
 Run tests on each push to master.
 
+![drone.io in action](drone.png)
+
 * [Run](#run)
 * [Develop](#develop)
 * [Test Drone](#test-drone)
