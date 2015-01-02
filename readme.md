@@ -4,8 +4,9 @@ MEAN.JS, Drone.io and Docker
 
 * [Run](#run)
 * [Develop](#develop)
+* [Test Drone](#test-drone)
 
-## Run (using docker)
+## Run (using docker, daemonized)
 
     fig up
     open 0.0.0.0:3000
@@ -20,3 +21,7 @@ MEAN.JS, Drone.io and Docker
     grunt test
     grunt
     open 0.0.0.0:3000
+
+## Test drone
+
+    drone build

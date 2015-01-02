@@ -1,8 +1,11 @@
 image: bradrydzewski/node:0.10
+env:
+  - NODE_ENV=development
 services:
   - bradrydzewski/mongodb:2.4
 script:
+  - npm install -g grunt-cli
+  - npm install -g bower
   - npm install
-  - grunt
-  - bower install --allow-root
+  - bower install --config.interactive=false --allow-root
   - grunt test
