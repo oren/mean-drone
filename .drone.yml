@@ -1,6 +1,6 @@
 image: bradrydzewski/node:0.10
 services:
-  - mongodb:2.4
+  - bradrydzewski/mongodb:2.4
 script:
   - npm install
   - grunt
