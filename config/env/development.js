@@ -3,7 +3,7 @@
 
 module.exports = {
 	db: {
-    uri: 'mongodb://' + (process.env.MEAN_DB_1_PORT_27017_TCP_ADDR || 'localhost') + '/onbrief-dev',
+    uri: 'mongodb://' + (process.env.MEAN_DB_1_PORT_27017_TCP_ADDR || 'localhost') + '/mean-dev',
 		options: {
 			user: '',
 			pass: ''
