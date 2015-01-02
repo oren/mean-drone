@@ -1,0 +1,4 @@
+image: dockerfile/nodejs
+script:
+  - npm install
+  - grunt test
