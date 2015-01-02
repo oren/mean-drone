@@ -14,7 +14,7 @@ MEAN.JS, Drone.io and Docker
 
     docker run -d --name db mongo
     docker build -t mean .
-    docker run -it --rm -v $(pwd):/home/mean --link db:mean_db_1 --name mean-app mean /bin/bash
+    docker run -it --rm -p 3000:3000 -v $(pwd):/home/mean --link db:mean_db_1 --name mean-app mean /bin/bash
     npm install
     grunt test
     grunt
