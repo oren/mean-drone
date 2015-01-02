@@ -2,6 +2,8 @@
 
 MEAN.JS, Drone.io and Docker
 
+Run tests on each push to master.
+
 * [Run](#run)
 * [Develop](#develop)
 * [Test Drone](#test-drone)
@@ -25,3 +27,4 @@ MEAN.JS, Drone.io and Docker
 ## Test drone
 
     drone build
+
