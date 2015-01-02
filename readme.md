@@ -16,6 +16,7 @@ MEAN.JS, Drone.io and Docker
     docker build -t mean .
     docker run -it --rm -p 3000:3000 -v $(pwd):/home/mean --link db:mean_db_1 --name mean-app mean /bin/bash
     npm install
+    bower install --allow-root
     grunt test
     grunt
     open 0.0.0.0:3000
