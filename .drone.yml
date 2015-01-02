@@ -1,4 +1,8 @@
 image: dockerfile/nodejs
+services:
+  - mongodb
 script:
   - npm install
+  - grunt
+  - bower install --allow-root
   - grunt test
