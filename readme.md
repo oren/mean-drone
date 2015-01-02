@@ -7,6 +7,7 @@ Run tests on each push to master.
 * [Run](#run)
 * [Develop](#develop)
 * [Test Drone](#test-drone)
+* [Setup Drone](#setup-drone)
 
 ## Run (using docker, daemonized)
 
