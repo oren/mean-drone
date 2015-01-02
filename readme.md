@@ -1,6 +1,6 @@
 # MEAN.JS with Drone.io
 
-MEAN.JS, Drone.io using Docker
+MEAN.JS, Drone.io and Docker
 
 * [Run](#run)
 
