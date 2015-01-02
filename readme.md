@@ -16,13 +16,8 @@ Run tests on each push to master.
 
 ## Develop (using docker)
 
-    docker run -d --name db mongo
-    docker build -t mean .
-    docker run -it --rm -p 3000:3000 -v $(pwd):/home/mean --link db:mean_db_1 --name mean-app mean /bin/bash
-    npm install
-    bower install --allow-root
-    grunt test
-    grunt
+    ./scripts/dockerize
+    ./scripts/start        # run this inside the container
     open 0.0.0.0:3000
 
 ## Test drone
