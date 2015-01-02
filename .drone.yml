@@ -1,4 +1,4 @@
-image: dockerfile/nodejs
+image: bradrydzewski/node:0.10
 services:
   - mongodb:2.4
 script:
