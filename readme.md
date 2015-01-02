@@ -22,7 +22,12 @@ Run tests on each push to master.
     ./scripts/start        # run this inside the container
     open 0.0.0.0:3000
 
-## Test drone
+## Setup Drone
+
+### Test drone without a drone server
 
     drone build
 
+### Disable a Project
+
+In the project's setting page (my-drone-server.com/github.com/oren/:project-name/settings) turn off 'Enable Post Commit Hooks'
